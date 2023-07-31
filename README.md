@@ -25,9 +25,17 @@ _**Clone the project locally, change into the directory, and install the depende
 _**Start the local Hardhat node**_
 
 - npx hardhat node
+  
+  ![image](https://github.com/ashaine16/nft-marketplace/assets/122938754/1e639128-03f1-46b6-809a-9cc7ff8fd2c3)
+
 
 _With the network running, deploy the contracts to the local network in a separate terminal window using:_
 - npx hardhat run scripts/deploy.js --network localhost
+
+  ![image](https://github.com/ashaine16/nft-marketplace/assets/122938754/b57da9c4-9a28-4ccf-9e0d-28c656e13764)
+
+  update your .config with this address ^
+
 
 **_Start the app_** 
 - npm run dev
