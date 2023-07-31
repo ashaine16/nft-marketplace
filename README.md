@@ -41,7 +41,7 @@ _With the network running, deploy the contracts to the local network in a separa
 - npm run dev
 
 ## Configuration
-To deploy to Polygon test or main networks, update the configurations located in hardhat.config.js to use a private key and, optionally, deploy to a private RPC like Infura. (Note: Do **NOT** use a Private Key from a Wallet you have funds in, create a throwaway wallet and use the PK of that instead)
+To deploy to Polygon test or main networks, update the configurations located in hardhat.config.js to use a private key and, optionally, deploy to a private RPC like Infura. (Note: Do **NOT** use a Private Key from a wallet got funds in, make a scrap meta mask wall)
 
 ```
 require("@nomiclabs/hardhat-waffle");
@@ -81,5 +81,3 @@ module.exports = {
   }
 };
 ```
-
-If you choose to use Infura, update .infuraid with your Infura project ID.
